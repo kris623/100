@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Dokument bez tytułu</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+
+<style>
+	body{
+		width: 100%;
+		height: 500px;
+		background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+		
+	}
+	.containerr{
+
+		margin-top: 200px;
+		top:20%;	
+		background: rgba(255, 255, 255, .3);
+	
+		position:absolute;
+		margin: auto;	
+		width:50%;
+		text-align: center;
+		left:25%;
+		border-top-left-radius: 15px;border-top-right-radius: 15px;
+		margin-bottom: 125px;
+		padding-bottom: 15px;	
+		border-radius: 15px;
+		border:solid;
+		border-width: 0.3px;
+	
+	}
+	
+	#h1{
+		position: relative;
+		margin-top: -10px;
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+		font-weight: 900;
+		background: rgb(255, 255, 255, .5);
+		opacity: 0.7;
+		border-radius: -15px;
+		border-color: black;
+		border-width: medium;
+		border: solid;
+		font-size: 28px;
+		border-radius: 5px;
+		margin-bottom: 15px;
+	}
+	img{
+		position:relative;
+		
+	
+		 margin-left: auto;
+    	margin-right: auto;
+    	width: 100%;
+		 height: 100%;
+		margin-top: -80px;
+	
+		
+		
+	}
+	.label{
+		position:relative;
+		text-align: left;
+		margin: auto;
+		margin-left: -50px;
+	}
+	.form {
+		position:relative;
+		display: inline-block;
+		width:20%;
+		
+	}
+	.formDay {
+		position:relative;
+		display: inline-block;
+		width:25%;
+		 margin: auto;
+	
+		text-align: left;
+		
+	}
+	.containerr > .form-group
+	{
+		margin-left: auto;
+		padding-left: 50px;
+	}
+	 .form1 {
+		position:relative;
+		display: inline-block;
+		 margin-left: 33px;
+		width:50%;
+		 
+		left: -5%;
+		
+	border: solid;	
+		
+	}
+	#leftText{
+		
+		
+				 
+			left: 5%;
+			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+		font-weight: bolder;
+		font-size: 15px;
+	
+		
+	}
+	#leftText1{
+		
+		
+				 
+			left: 5%;
+			font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+			font-weight: bolder;
+		font-size: 15px;
+
+		
+	}
+	#leftTex3{
+		
+		
+				 
+			left: -10%;
+			font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+			font-weight: bolder;
+			letter-spacing: 2px;	
+		
+			font-size: 18px;
+	
+		
+	}
+	.form-group > #leftText2{
+		
+		
+				 
+			left: -5%;
+		letter-spacing: 2px;
+			font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+		font-weight: bolder;
+		font-size: 18px;
+	
+		
+	}
+	.btnS{
+		margin-top: 29px;
+		position:relative;
+	 width:95%;
+		background: green;
+	}
+	
+	</style>
+</head>
+
+<body>
+
+<div class="containerr">
+
+	<img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/debit-card/pp-bdmc-hero-card-new.png" class="img" />
+	<h1 id="h1">CHECK-OUT</h1>
+	<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1" id="leftText2">Credit Card Number:</label>
+    <div>
+    <input type="email" class="form-control form" aria-describedby="emailHelp" placeholder="1">
+    <input type="card2" class="form-control form" aria-describedby="emailHelp1" placeholder="2">
+    <input type="email2" class="form-control form"  aria-describedby="emailHelp2" placeholder="3">
+    <input type="email3" class="form-control form" aria-describedby="emailHelp3" placeholder="4">
+    </div>
+    <small id="emailHelp" class="form-text text">We'll never share your number with anyone else.</small>
+  </div>
+   <div class="form-group">
+    <label for="exampleInputPassword1" id="leftText">Security code:</label>
+    <input type="password" class="form-control form1" id="exampleInputPassword5" placeholder="Security Code">
+  </div>
+  
+   <div class="form-group">
+    <label for="exampleInputPassword1" id="leftText1">Name on Card:</label>
+    <input type="password" class="form-control form1" id="exampleInputPassword6" placeholder="Name and surname">
+  </div>
+  
+   <div class="form-group">
+   
+    <label for="exampleInputPassword1" id="leftTex3">Expiration day:</label>
+   <div class="pad">
+     <input type="password" class="form-control formDay" id="exampleInputPassword7" placeholder="Day">
+    <input type="password" class="form-control formDay" id="exampleInputPassword8" placeholder="Month">
+    <input type="password" class="form-control formDay" id="exampleInputPassword9" placeholder="Year">
+  </div>
+  
+  <button type="button" class="btn btn-primary btn-lg btn-dark btnS">Submit</button>
+  </div>
+  
+  
+  </form>
+	
+</div>
+</body>
+</html>
