@@ -42,7 +42,7 @@
 		
 	}
 		@keyframes start {
-		0%{opacity:0.2;top:500px;}
+		0%{opacity:0.2;top:200px;}
 		13%{opacity:0.3;right:100px;}
 		25%{opacity:0.4;left:475px;}
 		37%{opacity:0.5;}
@@ -54,8 +54,8 @@
 		
 	}
 	.main:hover {
-		transition-duration: 4s;
-		opacity:1;
+		transition-duration: 2s;
+		opacity: 1;
 	}
 	.main:focus {
 		transition-duration: 4s;
@@ -98,6 +98,13 @@
 		visibility: hidden;
 		
 	}
+	.log > .text:hover{
+		color:darkred;
+	}
+	 h1:hover {
+		color:darkred;
+	}
+
 	h1{
 		padding-top:25px;
 		padding-bottom:-15px;
@@ -124,13 +131,13 @@
 		to{top:0px;visibility: visible; }
 	}
 @keyframes texts {
-		from{bottom:-500px;}
-		to{bottom:0px;visibility: visible; }
+		from{left:-500px;}
+		to{left:40px;visibility: visible; }
 	}
 	input{
 			animation-name: input;
 		animation-fill-mode: forwards;
-		animation-delay: 2s;
+		animation-delay: 3s;
 		animation-duration: 1s;
 		animation-timing-function: ease-in-out;
 		position: relative;
@@ -159,7 +166,7 @@
   <input type="email" class="form-control" id="exampleInputPassword" aria-describedby="passwordHelp" placeholder="Enter Password">
 
 </div>
-<input class="btn-success" id="mbtn" type="submit">
+<input class="btn-success shadow-lg" id="mbtn" type="submit">
 
 </form>
 </div>
