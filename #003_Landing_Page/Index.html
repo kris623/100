@@ -11,6 +11,8 @@
 	body,html{
 		height:100%;
 		margin:0;
+		top:15px;
+
 	}
 	.bg{
 		
@@ -24,6 +26,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+		border-top-left-radius: 15px;
 			border-bottom-right-radius: 45px; 
 	border-bottom-left-radius: 45px; 
 		
@@ -31,10 +34,7 @@
 	.container{
 		position:relative;
 		width: 50%;
-		height:400px;
-	
-		
-		
+		height:400px;	
 		top:2%;
 		bottom:25%;
 	}
@@ -44,8 +44,10 @@
 		margin-top:55px;
 		left:0%;
 		top: 5%;
+		width: 100%;
 		position:absolute;
 	text-align: center;
+		
 	}
 	.bg > button,a{
 		position: relative;
@@ -73,8 +75,8 @@
 		margin-bottom: -75px;
 		opacity: 1;
 		
-		border-top-left-radius: 45px;
-		border-top-right-radius: 45px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
 	}
 	.bg > .fotter{
 		position: absolute;
@@ -86,8 +88,8 @@
   background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(180deg;, #0f0c29, #302b63, #24243e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-		border-bottom-right-radius: 100px; 
-	border-bottom-left-radius: 100px; 
+		border-bottom-right-radius: 20px; 
+	border-bottom-left-radius: 20px; 
 	}
 	.bg > .leftheader{
 		position: absolute;
@@ -117,35 +119,45 @@
 
 
 	}
-	#top {
+	#top,#top1,#top2,#top3,#top4,#top5 {
 		position:relative;
-		display: inline-block;
-		top: 5px;
+		margin-right: 5px;
+		  
 	}
-	#top1 {
-		display: inline-block;
-		position:relative;
-		top: 5px;
-		margin-top: 15px;
-	}
-	#top2 {
-		display: inline-block;
-		position:relative;
-		top: 5px;
-		margin-top: 15px;
-	}
-	#top3 {
-		display: inline-block;
-		position:relative;
-		top: 5px;
-		margin-top: 15px;
+	#top{
+		margin-left: -5px;
 	}
 	.top {
 		display: inline-block;
-		position:relative;
-		top: 5px;
+		position:relative;	
+		margin-right: 200px;
+	}
+	.content{
+		position: relative;
+		top:-30%;
+		background: rgba(142,12,14,.2);
+	
+	}
+	 .MainText{
 		
-		margin-top: 55px;
+		position: relative;
+		text-align: center;
+		
+		
+		font-size: 26px;
+		width:100%;
+		font-weight: bolder;
+	}
+	 .MainText1{
+		
+		 
+			text-align: center;
+		position: relative;
+		width:40%;
+	
+		
+		margin-left: 30%;
+		 margin-right: 25%;
 	}
 	</style>
 	</head>
@@ -153,27 +165,20 @@
 <body>
 	
 <div class="bg">
-
+<div class="leftheader"></div>
+	<div class="rightheader"></div>
+	<div class="fotter"></div>
 <nav class="navbar navbar-expand-lg navbar-light header" >
  
   <a class="navbar-brand" href="#"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background:grey; margin-right:15px;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background:white;position:absolute;margin-left:10px;">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent" >
     <ul class="navbar-nav mr-auto" >
-      <li class="nav-item dropdown">
-        <a class="btn btn-outline-success my-2 my-sm-0 dropdown-toggle top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="color:black">
-          
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
+      sdsd
+      
       <li class="nav-item active">
         <button class="btn btn-success " type="submit" id="top" >Start</button>
       </li>
@@ -184,25 +189,46 @@
       <li class="nav-item ">
           <button class="btn btn-success my-2 my-sm-0" type="submit" id="top3" >Project</button>
       </li>
-      
+    <li class="nav-item active">
+        <button class="btn btn-success " type="submit" id="top6" >Contact</button>
+      </li>
+   
     </ul>
      
-     
+ <li class="nav-item dropdown">
+        <a class="btn btn-success my-2 my-sm-0 dropdown-toggle top" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" style="color:black">
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
    
   </div>
 </nav>
-	
-	<div class="leftheader"></div>
 	
 	<div class="container">
 		<h1>
 			Welcome!
 			</h1>
 		
+	
 		</div>
-	<div class="rightheader"></div>
-			<div class="fotter"></div>
+		<div class="content">
+	<p class="MainText">
+			Showcase 1 - Be silent with wind.
+		</p>
+			<p class="MainText1">
+			"Homo sum, humani nihil a me alienum puto" 
+		</p>
+			<p class="MainText1">
+		Człowiekiem jestem i nic, co ludzkie, nie jest mi obce
+			</p>
+		<p class="MainText1">	Terencjusz </p>
 	</div>
-
+</div>
 	</body>
 </html>
